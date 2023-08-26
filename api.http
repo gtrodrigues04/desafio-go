@@ -1,0 +1,18 @@
+POST http://localhost:8081/api/routes
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "teste",
+    "source": {
+        "lat": 1,
+        "lng": 1
+    },
+    "destination": {
+        "lat": 1,
+        "lng": 1
+    }
+}
+
+###
+GET http://localhost:8081/api/routes
